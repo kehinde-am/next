@@ -55,7 +55,7 @@ export default function Home() {
       <h2 className="text-2xl mb-4 text-center">Next.js template</h2>
 
       <input
-        className="w-full max-w-xs p-2 border border-blue-700 rounded mb-4"
+        className="w-full max-w-xs p-2 border border-black rounded mb-4 text-black placeholder-black"
         type="text"
         placeholder="Enter text here"
         onInput={(e) => classify(e.target.value)}
